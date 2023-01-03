@@ -6,3 +6,17 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+.main__button
+{
+    background-color: rgba(5, 96, 253, 1);
+}
+.main__email
+{
+    background-image: url(./images/user__email.png);
+    background-repeat: no-repeat;
+    
+}
+.main__email::placeholder
+{
+    padding-left: 10%;
+}
