@@ -12,11 +12,22 @@
 }
 .main__email
 {
-    background-image: url(./images/user__email.png);
+    /* background-image: url(./images/user__email.png); */
     background-repeat: no-repeat;
-    
+    padding-left: 10%;   
 }
-.main__email::placeholder
+.main__pass
 {
-    padding-left: 10%;
+    /* background-image: url(./images/vector.png); */
+    background-repeat: no-repeat;
+    padding-left: 10%;   
+}
+.main__signup
+{
+    color: rgba(5, 96, 253, 1);
+    text-decoration: underline;
+}
+.chart__div
+{
+    background-color: rgb(241,244,249);
 }

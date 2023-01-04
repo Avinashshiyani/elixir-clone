@@ -14,7 +14,7 @@
     <div class="flex main__div p-3">
             <!-- login  main div -->
 
-        <div class="w-2/5 bg-slate-500 justify-between space-y-24 ">
+        <div class="w-2/5  justify-between space-y-24 ">
 
             <!-- image and info div -->
                 <div class="flex items-center m-5">
@@ -23,51 +23,81 @@
                 </div>
     
                 <!-- sign up form div -->
-                <div class="bg-red-100 grid justify-center">
+                <div class="grid justify-center">
 
-                    <div class="grid justify-center w-100 items-center bg-red-300">
+                    <div class="grid justify-center w-100 items-center">
 
                         <span class="font-bold text-2xl">Login To platform</span>
                         <span class=" text-md pl-10 mt-6">Email Address *</span>
 
-                        <input type="text" placeholder="name@domain.com" class="main__email h-12 rounded-md">
-                        <span class=" text-md pl-10 mt-6">Password *</span>
+                        <!-- icons in placeholder -->
+                        <input type="text" placeholder="name@domain.com" class="main__email h-12 rounded-md border-2">
 
-                        <input type="text" placeholder="Strong Password" class="h-12 rounded-md">
-                        <span class="text-center py-4">Forgot Password ?</span>
+                        <span class=" text-md pl-10 mt-6">Password *</span>
+                        <input type="text" placeholder="Strong Password" class="main__pass h-12 rounded-md border-2">
+
+                        <a href="#" class="text-center py-4 text-slate-400">
+                            <span>Forgot Password ?</span>
+                        </a>
                         
                         <div class="h-12 w-96 rounded-2xl flex justify-center items-center main__button text-white"">
                             <a href="#">Login</a>
                         </div>
 
-                        <span class="text-center py-4">Or connect With social Account</span>
+                        <span class="text-center py-4 text-slate-400">Or connect With social Account</span>
 
-                        <div class="flex space-x-2 text-center">
+                            <div class="flex space-x-2 text-center">
 
-                            <div class="rounded-2xl h-12 border-2 w-1/2 flex justify-center items-center bg-white">
-                                <img src="./components/images/Union.png" class="px-2"/>Google
+                                <div class="rounded-2xl h-12 border-2 cursor-pointer w-1/2 flex justify-center items-center bg-white">
+                                    <img src="./components/images/Union.png" class="px-2"/>Google
+                                </div>
+
+                                <div class="rounded-2xl h-12 border-2 cursor-pointer w-1/2 flex justify-center items-center bg-white">
+                                    <img src="./components/images/Union2.png"class="px-2"/>Facebook
+                                </div>
+
                             </div>
-
-                            <div class="rounded-2xl h-12 border-2 w-1/2 flex justify-center items-center bg-white">
-                                <img src="./components/images/Union2.png"class="px-2"/>Facebook
-                            </div>
-
-                        </div>
 
                     </div>
 
                 </div>
     
                 <!-- dont forget to sign form -->
-                <div>
-                    <span>Dont forget to sign ip the form</span>
+                <div class="flex justify-center">
+
+                    <span>Dont have an account</span>
+
+                    <a href="#">
+                        <span class="ml-1 main__signup"> Sign up</span>
+                    </a>
+
                 </div>
 
         </div>
 
         <!-- chart main div -->
-        <div class="bg-green-300 w-3/5">
-            hello world !
+        <!-- 2nd section -->
+        <div class="chart__div w-3/5 justify-between">
+            
+            <!-- chart__div navbar -->
+            <div class="m-16">
+                <img src="./components/images/Group 1.png" alt="">
+            </div>
+
+            <!-- graph div -->
+            <div class="flex  border-2 mx-12">
+
+                <div class="border-4 bg-red-100 w-80">
+
+                    <div class="flex justify-between ">
+                        <span>Active Revenue</span>
+                        <img src="./components/images/more-horizontal.png" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
     </div>
