@@ -35,3 +35,9 @@
 {
     background-color:rgba(5, 96, 253, 1);
 }
+.chart__team
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
