@@ -45,3 +45,54 @@
     align-items: center;
     justify-content: center;
 }
+.chart__scrool
+{
+    background-color:rgba(221, 228, 238, 1);
+}
+/* animation starts */
+.animation__1
+{
+    animation-name: animation__1;
+    animation-duration: 3s;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation__1
+{
+    0%
+   {
+    height: 0;
+   }
+}
+
+.animation__2
+{
+    animation-name: animation__1;
+    animation-duration: 4s;
+    /* animation-delay: 0.5s; */
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation__1
+{
+    0%
+   {
+    height: 0;
+   }
+}
+
+.animation__3
+{
+    animation-name: animation__1;
+    animation-duration: 5s;
+    /* animation-delay: 1.5s; */
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+@keyframes animation__1
+{
+    0%
+   {
+    height: 0;
+   }
+}
