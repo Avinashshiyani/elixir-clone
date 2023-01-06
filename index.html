@@ -77,15 +77,15 @@
 
         <!-- chart main div -->
         <!-- 2nd section -->
-        <div class="chart__div w-3/5 justify-between">
+        <div class="chart__div w-3/5 ">
             
             <!-- chart__div navbar -->
-            <div class="m-16">
+            <div class="m-8">
                 <img src="./components/images/Group 1.png" alt="">
             </div>
 
             <!-- graph div -->
-            <div class="flex  mx-12">
+            <div class="flex mx-12 justify-center">
 
                 <div class="border-2 bg-white w-80 rounded-2xl p-2">
 
@@ -146,19 +146,19 @@
             </div>
 
             <!-- manage team and total expense section stats -->
-            <div class="p-5 mx-8 grid">
+            <div class="p-5 mx-8 flex justify-center">
 
-                <div class= "w-96 rounded-2xl space-y-6 border-2 bg-white">
-                    <div class="text-2xl font-bold border-b-2 border-slate-400 w-96 p-2">
+                <div class= "w-96 rounded-2xl space-y-2 border-2 bg-white grid">
+                    <div class="text-2xl font-bold border-b-2 border-slate-400 w-96 p-4 text-center">
                         <span class="">Manage Team</span>
                     </div>
                     <div>
                         <span class="p-2">Recent</span>
                     </div>
                     <!-- team images -->
-                    <div class="flex justify-around w-96">
+                    <div class="flex justify-around w-96 -py-1">
                         
-                            <div class="rounded-2xl h-12 w-12 chart__team">
+                            <div class="rounded-2xl h-12 w-12 chart__team border-2">
                                 <img src="./components/images/plus.png" alt="image">
                             </div>
     
@@ -181,8 +181,64 @@
                             <div class="rounded-full h-12 w-12  chart__team">
                                 <img src="./components/images/Avatar (4).png" alt="">
                             </div>
+                    </div> 
+                       <!-- team name div -->
+                       <div class="flex justify-center space-x-4">
+                            <span>Add</span>
+                            <span>Dragos</span>
+                            <span>Adrina</span>
+                            <span>Robert</span>
+                            <span>Joy</span>
+                            <span>Monica</span>
+                       </div>
+                </div>
+
+                <!-- manage team div -->
+                <div class="bg-white p-2 border-2 rounded-2xl -mt-36 -ml-8 grid items-center h-60">
+                    
+                    <div class="flex justify-between">
+                        <span class="font-bold text-2xl">$63910.25</span>
+                        <span>
+                            <img src="./components/images/more-horizontal.png" alt="image">
+                        </span>
                     </div>
 
+                    <div>
+                        <span>Total Expences Q2</span>
+                    </div>
+
+                    <!-- charts no images ok-->
+                    <div class="flex space-x-8 items-end justify-around">
+
+                        <div class="grid  items-center space-y-2">
+                            <div class="h-16 w-10 chart__color rounded-lg"></div>
+                            <span>May</span>
+                        </div>
+
+                        <div class="grid  text-center space-y-2">
+                            <div class="h-24 w-10 chart__color rounded-lg"></div>
+                            <span>June</span>
+                        </div>
+
+                        <div class="grid  text-center space-y-2">
+                            <div class="h-16 w-10 chart__color__secondary rounded-lg"></div>
+                            <span>July</span>
+                        </div>
+
+                        <div class="grid  text-center space-y-2">
+                            <div class="h-24 w-10 chart__color__secondary rounded-lg"></div>
+                            <span>August</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- manage team div over -->
+
+                
+            </div>
+            <!-- tickmark done -->
+            <div class="bg-red-500 flex justify-center ">
+                <div class="rounded-full chart__color  ml-72 -mt-20">
+                    <img src="./components/images/right_tick.png" alt="image" class="p-8">
                 </div>
             </div>
             

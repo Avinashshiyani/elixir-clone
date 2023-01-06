@@ -35,6 +35,10 @@
 {
     background-color:rgba(5, 96, 253, 1);
 }
+.chart__color__secondary
+{
+    background-color: rgba(221, 228, 238, 1);
+}
 .chart__team
 {
     display: flex;
