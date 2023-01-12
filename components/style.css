@@ -101,14 +101,3 @@
     animation-iteration-count: infinite;
     animation-name: animation__tick;
 }
-@keyframes animation__tick
-{
-    0%
-    {
-
-    }
-    100%
-    {
-        transform: rotateY(360deg);
-    }
-}
