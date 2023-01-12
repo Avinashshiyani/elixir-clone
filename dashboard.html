@@ -13,30 +13,120 @@
     <!-- dashboard started -->
     <div class="flex">
         <!-- first section-->
-        <div class="flex w-1/4 border-2">
+        <div class="w-1/4 border-2">
             <!-- logo -->
             <div class="flex items-center p-5">
                 <span><img src="./components/images/LOGO Shape.png" class="h-6 sm:h-10 md:h-12"></span>
                 <span class="text-sm sm:text-2xl font-bold">Elixer . DS</span>
             </div>
 
+            <!-- menu div -->
+            <div class="menu__div">
+                <!-- search  -->
+                <div class=" flex justify-center">
+                    <input type="text" class="h-12 rounded-md border-2 w-32 md:w-80 input__search" placeholder="search">
+                </div>
+                
+                <!-- admin tools -->
+                <div class="grid justify-start text-sm mt-6 space-y-4 md:px-10 md:text-md">
+
+                    <span class="text-sm md:text-lg">Admin Tools</span>
+
+                    <div class="flex  items-center space-x-6">
+                        <img src="./components/images/admintools1.png" class="h-4 md:h-7">
+                        <span>Dashboard</span>
+                    </div>
+
+                    <div class="flex  items-center space-x-6">
+                        <img src="./components/images/admintools2.png" class="h-4 md:h-7">
+                        <span>Bussiness</span>
+                    </div>
+
+                    <div class="flex  items-center space-x-6">
+                        <img src="./components/images/admintools3.png" class="h-4 md:h-7">
+                        <span>Clients</span>
+                    </div>
+
+                    <div class="flex  items-center space-x-6">
+                        <img src="./components/images/admintools4.png" class="h-4 md:h-7">
+                        <span>Analytics</span>
+                    </div>
+
+                    <div class="flex  items-center space-x-6">
+                        <img src="./components/images/admintools5.png" class="h-4 md:h-7">
+                        <span>Notification</span>
+                    </div>
+
+                </div>
+                <!-- categeories -->
+                <div class="grid justify-start text-sm mt-8 space-y-4 md:px-10 md:text-lg">
+
+                    <span class="text-sm md:text-lg">categeories</span>
+
+                    <div class="flex items-center space-x-6">
+                        <div class="h-2 w-2 rounded-full bg-green-500"></div>
+                        <span>Income</span>
+                    </div>
+
+                    <div class="flex items-center space-x-6">
+                        <div class="h-2 w-2 rounded-full bg-orange-500"></div>
+                        <span>Expense</span>
+                    </div>
+
+                    <div class="flex items-center space-x-6">
+                        <div class="h-2 w-2 rounded-full bg-violet-500"></div>
+                        <span>Investment</span>
+                    </div>
+
+                    <div class="flex items-center space-x-6">
+                        <div class="h-2 w-2 rounded-full bg-blue-500"></div>
+                        <span>Assets</span>
+                    </div>
+
+                </div>
+                
+                <!-- get help section -->
+                <div class="grid justify-start text-sm mt-8 space-y-4 md:px-10 md:text-lg">
+
+                    <div class="flex items-center space-x-6">
+                        <img src="./components/images/gethelp1.png" class="">
+                        <span>Get help</span>
+                    </div>
+
+                    <div class="flex items-center space-x-6 ">
+                        <img src="./components/images/gethelp2.png" class="">
+                        <span>Settings</span>
+                    </div>
+
+                    <div class="flex items-center space-x-6">
+                        <img src="./components/images/gethelp3.png" class="">
+                        <div class="grid">
+                            <span>Dragos B</span>
+                            <span class="text-slate-500">Premium User</span>
+                        </div>
+                        <img src="./components/images/gethelp4.png" class="h-1">
+                    </div>
+
+                </div>
+            </div>
+
         </div>
         <!-- second section -->
         <div class="w-3/4">
             
-            <div class="h-20 p-5 flex justify-between items-center text-sm md:text-lg bg-red-100">
+            <div class="h-20 p-5 flex justify-between items-center text-sm md:text-lg">
                 <span>Dashboard</span>
 
-                <div class="flex space-x-1 items-center">
+                <div class="flex space-x-1 items-center md:space-x-3">
 
-                        <div class="flex rounded-2xl p-2 border-2">
-                            <img src="./components/images/filters.png" class="">
-                            <span class="pl-2">Filters</span>
+                        <div class="flex rounded-2xl p-2 border-2 bg-white items-center">
+                            <img src="./components/images/filters.png" class="h-4">
+                            <span class="pl-3">Filters</span>
                         </div>
 
-                        <div class="flex rounded-2xl border-2 p-2 chart__color">
-                            <img src="./components/images/upgradeaccount.png">
-                            <span class="text-sm md:text-lg pl-2">Upgrade account</span>
+                        <div class="flex rounded-2xl border-2 p-2 chart__color items-center justify-center ">
+                            <img src="./components/images/upgradeaccount.png" class="h-6">
+                            <span class="text-sm  text-white md:text-lg pl-2">Upgrade account</span>
                         </div>
 
                 </div>

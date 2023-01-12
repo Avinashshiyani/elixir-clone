@@ -101,3 +101,7 @@
     animation-iteration-count: infinite;
     animation-name: animation__tick;
 }
+.input__search::placeholder
+{
+    padding-left: 10%;
+}
